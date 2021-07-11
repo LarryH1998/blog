@@ -20,8 +20,7 @@ $$
 The free energy is dependent on international energy and entropy, so changes in interatomic interactions and entropy would cause significant change in free energy. Particularly, the entropy change induced by solvent can be dominant to free energy change.
 
 
-
-One important implication of free energy is that the probability of being one state is related to its free energy\\
+One important implication of free energy is that the probability of being one state is related to its free energy
 
 
 $$
@@ -29,11 +28,13 @@ p(x)\propto e^{-G(x)/k_BT}
 $$
 
 
-And such relation can be extremely helpful when we want to estimate the free energy difference between state A and B:\\
+And such relation can be extremely helpful when we want to estimate the free energy difference between state A and B:
+
+
 $$
 \frac{p(A)}{p(B)}=e^{-\Delta G/k_BT}
 $$
-\\
+
 
 
 By simply simulating the process between A and B and the free energy difference can be obtained by evaluating the populations in A and B.
