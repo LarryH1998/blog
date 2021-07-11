@@ -33,6 +33,8 @@ user_email: "larry.huang1998@gmail.com"
 
 # Build settings
 markdown: kramdown
+kramdown:
+  math_engine: null
 gems:
   - jekyll-feed
   - jekyll-paginate
