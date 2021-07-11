@@ -61,19 +61,19 @@ The free energy can be obtained from the partition function of  an ensemble.
 
 Helmholtz Free energy can be obtained from canonical partition function
 
-
+\\
 $$
 F=-\frac{1}{\beta}lnQ(N,V,T)
 $$
-
+\\
 
  Where the partition function can be expressed
  
- 
+\\
 $$
 Q(N,V,T)=\frac{1}{h^{3N}N!}\int...\int e^{-\beta H(\bold{p_1,p_2,...,p_N,q_1,q_2,...,q_N})}d\bold{p_1}...d\bold{p_N}d\bold{q_1}...d\bold{q_N}
 $$
-
+\\
 
 For simulation, this partition function can be not so feasible to obtain 
 
@@ -81,19 +81,19 @@ For simulation, this partition function can be not so feasible to obtain
 
 Gibbs free energy can be obtained from isothermal–isobaric ensemble
 
-
+\\
 $$
 G=-\frac{1}{\beta}lnQ(N,P,T)
 $$
-
+\\
 
 With partition function represented as:
 
-
+\\
 $$
 Q(N,P,T)=\frac{1}{h^{3N}N!}\int...\int e^{-\beta H(\bold{p_1,p_2,...,p_N,q_1,q_2,...,q_N}+PV)}d\bold{p_1}...d\bold{p_N}d\bold{q_1}...d\bold{q_N}
 $$
-
+\\
 
 
 
@@ -105,11 +105,11 @@ As the Hamiltonian can be divided into kinetics part and potential part, the par
 
 The free energy perturbation (FEP) method introduced by Zwanzig[ref 7]
 
-
+\\
 $$
 \Delta G_{AB}=G_B-G_A=-\frac{1}{\beta}ln\frac{Q_B}{Q_A}=-\frac{1}{\beta}<e^{-\beta(H_B(\bold{p,q})-H_A(\bold{p,q}))}>
 $$
-
+\\
 
 The bracket denotes an ensemble average.
 
@@ -139,19 +139,19 @@ As a consequence, the method is only of use when the overlap in the phase space 
 
 Bennet's estimate can be expressed as:
 
-
+\\
 $$
 \Delta G_{A B}=\frac{1}{\beta} \ln \frac{\left\langle f\left(H_{A}(\mathbf{p}, \mathbf{q})-H_{B}(\mathbf{p}, \mathbf{q})+C\right)\right\rangle_{B}}{\left\langle f\left(H_{B}(\mathbf{p}, \mathbf{q})-H_{A}(\mathbf{p}, \mathbf{q})-C\right)\right\rangle_{A}}+C
 $$
-
+\\
 
 Here, $f$ represents the fermi function
 
-
+\\
 $$
 f(x)=\frac{1}{1+exp(\beta x)}
 $$
-
+\\
 
 $C=\frac{1}{\beta}ln(\frac{Q_A}{Q_B}\frac{n_B}{n_A})$
 
