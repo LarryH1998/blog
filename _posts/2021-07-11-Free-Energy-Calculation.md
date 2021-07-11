@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Syntax Highlighting Test"
+date:   2017-03-24 01:30:13 +0800
+categories: default
+tags: test syntax
+---
+
 Free energy is a very important indicator of whether a process is spontaneous. Given the free energy of a process can we determine the important properties including binding affinities and protein folding. In addition, the free energy barrier can be helpful to determine the kinetics and rates of the process.
 
 
