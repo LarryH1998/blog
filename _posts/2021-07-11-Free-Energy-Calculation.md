@@ -72,7 +72,7 @@ $$
  
 
 $$
-Q(N,V,T)=\frac{1}{h^{3N}N!}\int...\int e^{-\beta H(\bold{p_1,p_2,...,p_N,q_1,q_2,...,q_N})}d\bold{p_1}...d\bold{p_N}d\bold{q_1}...d\bold{q_N}
+Q(N,V,T)=\frac{1}{h^{3N}N!}\int...\int e^{-\beta H(\mathbf{p_1,p_2,...,p_N,q_1,q_2,...,q_N})}d\mathbf{p_1}...d\mathbf{p_N}d\mathbf{q_1}...d\mathbf{q_N}
 $$
 
 
@@ -92,7 +92,7 @@ With partition function represented as:
 
 
 $$
-Q(N,P,T)=\frac{1}{h^{3N}N!}\int...\int e^{-\beta H(\bold{p_1,p_2,...,p_N,q_1,q_2,...,q_N}+PV)}d\bold{p_1}...d\bold{p_N}d\bold{q_1}...d\bold{q_N}
+Q(N,P,T)=\frac{1}{h^{3N}N!}\int...\int e^{-\beta H(\mathbf{p_1,p_2,...,p_N,q_1,q_2,...,q_N}+PV)}d\mathbf{p_1}...d\mathbf{p_N}d\mathbf{q_1}...d\mathbf{q_N}
 $$
 
 
@@ -108,7 +108,7 @@ The free energy perturbation (FEP) method introduced by Zwanzig[ref 7]
 
 
 $$
-\Delta G_{AB}=G_B-G_A=-\frac{1}{\beta}ln\frac{Q_B}{Q_A}=-\frac{1}{\beta}<e^{-\beta(H_B(\bold{p,q})-H_A(\bold{p,q}))}>
+\Delta G_{AB}=G_B-G_A=-\frac{1}{\beta}ln\frac{Q_B}{Q_A}=-\frac{1}{\beta}<e^{-\beta(H_B(\mathbf{p,q})-H_A(\mathbf{p,q}))}>
 $$
 
 
