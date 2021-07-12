@@ -156,6 +156,7 @@ $$
 
 $C=\frac{1}{\beta}ln(\frac{Q_A}{Q_B}\frac{n_B}{n_A})$
 
+
 n A and n B are the numbers of configurations generated at state A and B
 
 
