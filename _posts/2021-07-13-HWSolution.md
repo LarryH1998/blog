@@ -18,9 +18,9 @@ Linear operation:
 $$
 \begin{align}
 D(af(x)+bg(x)) =& DL(x)\\
-               =& \lim\limits_{\Delta x \rightarr 0} \frac{L(x+\Delta x)-L(x)}{\Delta x}\\
-               =& \lim\limits_{\Delta x \rightarr 0} \frac{af(x+\Delta x)+bg(x+\Delta x)-af(x)-bg(x)}{\Delta x} \\
-               =& a \times \lim\limits_{\Delta x \rightarr 0} \frac{f(x+\Delta x)-f(x)}{\Delta x} + b \times \lim\limits_{\Delta x \rightarr 0} \frac{g(x+\Delta x)-g(x)}{\Delta x}\\
+               =& \lim\limits_{\Delta x \rightarrow 0} \frac{L(x+\Delta x)-L(x)}{\Delta x}\\
+               =& \lim\limits_{\Delta x \rightarrow 0} \frac{af(x+\Delta x)+bg(x+\Delta x)-af(x)-bg(x)}{\Delta x} \\
+               =& a \times \lim\limits_{\Delta x \rightarrow 0} \frac{f(x+\Delta x)-f(x)}{\Delta x} + b \times \lim\limits_{\Delta x \rightarrow 0} \frac{g(x+\Delta x)-g(x)}{\Delta x}\\
                =& aDf(x)+bDg(x)
 \end{align}
 $$
@@ -31,10 +31,10 @@ Multiplication of functions
 
 $$
 \begin{align}
-D[fg]  =& \lim\limits_{\Delta x \rightarr 0} \frac{f(x+\Delta x)g(x+\Delta x)-f(x)g(x)}{\Delta x} \\
-       =& \lim\limits_{\Delta x \rightarr 0} \frac{g(x)[f(x+\Delta x)-f(x)]+f(x+\Delta x)[g(x+\Delta x)-g(x)]}{\Delta x} \\
-       =& g(x) \lim\limits_{\Delta x \rightarr 0} \frac{[f(x+\Delta x)-f(x)]}{\Delta x}
-       + \lim\limits_{\Delta x \rightarr 0}\frac{f(x+\Delta x)[g(x+\Delta x)-g(x)]}{\Delta x}\\
+D[fg]  =& \lim\limits_{\Delta x \rightarrow 0} \frac{f(x+\Delta x)g(x+\Delta x)-f(x)g(x)}{\Delta x} \\
+       =& \lim\limits_{\Delta x \rightarrow 0} \frac{g(x)[f(x+\Delta x)-f(x)]+f(x+\Delta x)[g(x+\Delta x)-g(x)]}{\Delta x} \\
+       =& g(x) \lim\limits_{\Delta x \rightarrow 0} \frac{[f(x+\Delta x)-f(x)]}{\Delta x}
+       + \lim\limits_{\Delta x \rightarrow 0}\frac{f(x+\Delta x)[g(x+\Delta x)-g(x)]}{\Delta x}\\
        =& g(x)Df(x) + f(x)Dg(x)\\
        =& gDf + fDg
 \end{align}
@@ -46,8 +46,8 @@ Chain rule
 
 $$
 \begin{align}
-Df(u(x))     &= \lim\limits_{\Delta x \rightarr 0} \frac{f(u(x+\Delta x))-f(u(x))}{\Delta x} \\
-             &= \lim\limits_{\Delta x \rightarr 0} \frac{f(u+\Delta u)- f(u)}{\Delta u} \cdot \frac{\Delta u}{\Delta x}\\ &= \lim\limits_{\Delta x \rightarr 0}\frac{f(u+\Delta u)- f(u)}{\Delta u} \cdot \lim\limits_{\Delta x \rightarr 0}\frac{\Delta u}{\Delta x}\\
+Df(u(x))     &= \lim\limits_{\Delta x \rightarrow 0} \frac{f(u(x+\Delta x))-f(u(x))}{\Delta x} \\
+             &= \lim\limits_{\Delta x \rightarrow 0} \frac{f(u+\Delta u)- f(u)}{\Delta u} \cdot \frac{\Delta u}{\Delta x}\\ &= \lim\limits_{\Delta x \rightarrow 0}\frac{f(u+\Delta u)- f(u)}{\Delta u} \cdot \lim\limits_{\Delta x \rightarrow 0}\frac{\Delta u}{\Delta x}\\
              &= \frac{df}{du} \cdot \frac{du}{dx}\\
              \\
              &Here\ we\ denote\ \Delta u=u(x+\Delta x)-u(x)
@@ -60,9 +60,9 @@ $$
 
 $$
 \begin{align}
-D(\frac{1}{x}) &=  \lim\limits_{\Delta x \rightarr 0} \frac{\frac{1}{x+\Delta x}-\frac{1}{x}}{\Delta x} \\
-&= \lim\limits_{\Delta x \rightarr 0} \frac{\frac{-\Delta x}{x(x+\Delta x)}}{\Delta x} \\
-&= \lim\limits_{\Delta x \rightarr 0} \frac{-1}{x(x+\Delta x)}\\
+D(\frac{1}{x}) &=  \lim\limits_{\Delta x \rightarrow 0} \frac{\frac{1}{x+\Delta x}-\frac{1}{x}}{\Delta x} \\
+&= \lim\limits_{\Delta x \rightarrow 0} \frac{\frac{-\Delta x}{x(x+\Delta x)}}{\Delta x} \\
+&= \lim\limits_{\Delta x \rightarrow 0} \frac{-1}{x(x+\Delta x)}\\
 &= -\frac{1}{x^2}
 \end{align}
 $$
